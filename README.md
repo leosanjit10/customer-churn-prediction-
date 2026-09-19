@@ -51,7 +51,7 @@ The model successfully predicts customer churn and can support customer retentio
 
 ### Contract Type vs Churn
 
-images/contract_vs_churn.png
+images/contract_type_vs_churn_distribution.png
 
 **Insight:** Customers on month-to-month contracts exhibit significantly higher churn rates than customers on one-year and two-year contracts.
 
