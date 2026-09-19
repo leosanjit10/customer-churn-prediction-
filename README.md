@@ -27,12 +27,13 @@ This project analyzes customer behavior and builds a machine learning model to p
 
 ## Key Findings
 
-- Month-to-month customers showed the highest churn rates.
-- Customers with shorter tenure were more likely to leave.
-- Fiber optic customers exhibited higher churn levels.
-- Electronic check users had higher churn rates.
+- Customers on month-to-month contracts exhibited the highest churn rates.
+- Customers with shorter tenure were more likely to leave the company.
+- Higher monthly charges were associated with increased churn.
+- Fiber optic customers demonstrated significantly higher churn levels.
+- Electronic check users exhibited higher churn rates than other payment groups.
 - Customers without technical support were significantly more likely to churn.
-- Long-term contracts helped reduce customer churn.
+- Long-term contracts, online security, and technical support services were associated with greater customer retention.
 
 ---
 
@@ -43,17 +44,41 @@ This project analyzes customer behavior and builds a machine learning model to p
 - **True Negatives:** 934
 - **True Positives:** 224
 
-The model successfully predicts customer churn and can support customer retention strategies.
+The model demonstrated strong predictive performance and can be used to support customer retention strategies.
 
 ---
 
 ## Key Visualizations
 
+### Customer Churn Distribution
+
+images/customer_churn_distribution.png
+
+**Insight:** Approximately 26.5% of customers churned, indicating a significant retention challenge for the business.
+
+---
+
 ### Contract Type vs Churn
 
 images/contract_type_vs_churn_distribution.png
 
-**Insight:** Customers on month-to-month contracts exhibit significantly higher churn rates than customers on one-year and two-year contracts.
+**Insight:** Customers with month-to-month contracts exhibited substantially higher churn than customers on one-year and two-year contracts.
+
+---
+
+### Customer Tenure vs Churn
+
+images/customer_tenure_vs_churn.png
+
+**Insight:** Customers who churned generally had much shorter tenures, indicating that newer customers are at greater risk of leaving.
+
+---
+
+### Payment Methods vs Churn
+
+images/payment_methods_vs_churn.png
+
+**Insight:** Electronic check users showed the highest churn levels among all payment methods.
 
 ---
 
@@ -69,13 +94,13 @@ images/feature_importance.png
 
 images/confusion_matrix.png
 
-**Insight:** The model correctly classified the majority of customers and achieved an overall accuracy of 82.19%.
+**Insight:** The Logistic Regression model correctly classified the majority of customers and achieved an overall accuracy of 82.19%.
 
 ---
 
 ## Business Impact
 
-The analysis identified key factors contributing to customer churn. By focusing on long-term contract adoption, customer onboarding, technical support services, and targeted retention campaigns, the company can improve customer retention and reduce revenue loss.
+The analysis identified several key drivers of customer churn. By focusing on contract upgrades, customer onboarding, pricing strategies, payment preferences, online security adoption, and technical support services, the company can improve retention rates and reduce revenue loss.
 
 ---
 
@@ -87,18 +112,22 @@ customer-churn-prediction/
 ├── Customer_Churn_Prediction.ipynb
 ├── README.md
 └── images/
-    ├── contract_vs_churn.png
+    ├── confusion_matrix.png
+    ├── contract_type_vs_churn_distribution.png
+    ├── customer_churn_distribution.png
+    ├── customer_tenure_vs_churn.png
     ├── feature_importance.png
-    └── confusion_matrix.png
+    └── payment_methods_vs_churn.png
 ```
 
 ## Future Improvements
 
-- Train Random Forest models
-- Train XGBoost models
-- Handle class imbalance
+- Implement Random Forest Classifier
+- Implement XGBoost Classifier
+- Address class imbalance techniques
 - Improve churn recall score
-- Deploy the model using Streamlit
+- Build an interactive Streamlit dashboard
+- Deploy the model as a web application
 
 ## Author
 
