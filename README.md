@@ -52,7 +52,8 @@ The model demonstrated strong predictive performance and can be used to support 
 
 ### Customer Churn Distribution
 
-images/customer_churn_distribution.png
+<img width="711" height="501" alt="image" src="https://github.com/user-attachments/assets/cba1d9b7-49ea-436a-9eda-ef394d36fdbb" />
+
 
 **Insight:** Approximately 26.5% of customers churned, indicating a significant retention challenge for the business.
 
