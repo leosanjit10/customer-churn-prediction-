@@ -78,8 +78,8 @@ The model demonstrated strong predictive performance and can be used to support 
 ---
 
 ### Payment Methods vs Churn
+<img width="1100" height="667" alt="image" src="https://github.com/user-attachments/assets/c18cc986-9cdc-4b4e-a2d7-52e502aedab3" />
 
-images/payment_methods_vs_churn.png
 
 **Insight:** Electronic check users showed the highest churn levels among all payment methods.
 
