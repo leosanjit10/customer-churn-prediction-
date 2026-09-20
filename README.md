@@ -96,7 +96,8 @@ The model demonstrated strong predictive performance and can be used to support 
 
 ### Confusion Matrix
 
-images/confusion_matrix.png
+<img width="671" height="500" alt="image" src="https://github.com/user-attachments/assets/2d09bf0a-b13a-41fb-aba8-fad02abacad1" />
+
 
 **Insight:** The Logistic Regression model correctly classified the majority of customers and achieved an overall accuracy of 82.19%.
 
