@@ -61,7 +61,8 @@ The model demonstrated strong predictive performance and can be used to support 
 
 ### Contract Type vs Churn
 
-images/contract_type_vs_churn_distribution.png
+<img width="901" height="593" alt="image" src="https://github.com/user-attachments/assets/877f81af-3601-4bd9-a39b-c71d448654db" />
+
 
 **Insight:** Customers with month-to-month contracts exhibited substantially higher churn than customers on one-year and two-year contracts.
 
