@@ -70,7 +70,8 @@ The model demonstrated strong predictive performance and can be used to support 
 
 ### Customer Tenure vs Churn
 
-images/customer_tenure_vs_churn.png
+<img width="885" height="597" alt="image" src="https://github.com/user-attachments/assets/9246266c-2596-40b5-bb75-434d5dd68a67" />
+
 
 **Insight:** Customers who churned generally had much shorter tenures, indicating that newer customers are at greater risk of leaving.
 
