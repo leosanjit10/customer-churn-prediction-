@@ -87,7 +87,8 @@ The model demonstrated strong predictive performance and can be used to support 
 
 ### Feature Importance
 
-images/feature_importance.png
+<img width="1332" height="695" alt="image" src="https://github.com/user-attachments/assets/db34359b-81b5-432b-8b92-0d21e6049e7e" />
+
 
 **Insight:** Fiber optic internet service, paperless billing, and electronic check payment methods were identified as the strongest factors increasing churn.
 
